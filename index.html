@@ -1,43 +1,181 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>bootstrap basics class2</title>	 
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>07-june</title>	 	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<link rel="stylesheet" href="font\css\font-awesome.min.css">
+	<link rel="stylesheet" href="font\css\font-awesome.min.css">
 </head>
 <body>
-	<section>
+	 
+	
+	<section id="sec1-padding">
 		<div class="container">
-			<div class="row mt-5">
-				<div class="col-12 col-sm-12 col-md-12 col-lg-6 lg-order">
-					<img src="image/about.jpg" width="100%">
+			<div class="row">				
+				<div class="col-md-12 mb-5 col-lg-6">
+					<h1>Frequently Asked <strong>Questions</strong></h1>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 				</div>
+				<div class="col-md-12 col-lg-6">
 				
-				<div class="col-12 col-sm-12 col-md-12 col-lg-6 lg-order-1">
-					<div class="row">
-						<div class="col-12 col-sm-12 text-secondary">
-							<h1>voluptatem dignissimos provident quasi</h1>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						</div>
-						<div class="col-12 col-sm-6 text-secondary">
-							<i class="bi bi-file-earmark-text fs-4"></i>
-							<h4>Lorem Ipsum</h4>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-						</div>
-						<div class="col-12 col-sm-6 text-secondary">
-							<i class="bi bi-box fs-4"></i>
-							<h4>Lorem Ipsum</h4>
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-						</div>
+					<div class="accordion" id="accordionPanelsStayOpenExample">
+					 	 
+						<div class="accordion-item shadow mb-3 border">
+							<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+								<button class="accordion-button text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+									<span class="text-danger fs-5">1.</span>Accordion Item
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+								<div class="accordion-body">
+									<strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>				
+					 	 
+						<div class="accordion-item shadow mb-3 border">					
+							<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+								<button class="accordion-button collapsed text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+									<span class="text-danger fs-5">2.</span>Accordion Item
+								</button>							
+							</h2>
+							<div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+								<div class="accordion-body">
+									<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>					
+						 	
+						<div class="accordion-item shadow mb-3 border">
+							<h2 class="accordion-header" id="panelsStayOpen-headingThree">
+								<button class="accordion-button collapsed text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+									<span class="text-danger fs-5">3.</span>Accordion Item
+								</button>
+							</h2>
+							<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+								<div class="accordion-body">
+									<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+								</div>
+							</div>
+						</div>					 
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	
+	<section>
+		<div class="container mt-5 mb-5">
+			<div class="row justify-content-center border border-5 border-warning">				 
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/5.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic keerai</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/4.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Celery</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/3.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Greebbell</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/2.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Brocoli</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/1.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Banana</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/10.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Strawberry</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/9.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Small onion</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/8.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Pineapple</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/7.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Orange</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<div class="card mb-2 border-0">
+						<img src="images/6.webp" class="card-img-top" alt="...">
+						<div class="card-body text-center">
+							<p class="card-text text-primary fs-4">Organic Onion</p>
+							<p class="card-text">$3.34/Bunch</p>
+						</div>
+					</div>
+				</div>
+				<!---->
+				
+			</div>
+		</div>
+	</section>
+<script src="js/bootstrap.bundle.min.js">
+</script>
 </body>
 </html>

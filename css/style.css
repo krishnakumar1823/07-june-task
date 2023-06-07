@@ -3,10 +3,15 @@
 	padding:0;
 	box-sizing:border-box;
 } 
-	 
-	.lg-order{
-		order:2;
-	}
-	.lg-order-1{
-		order:1;
-	}
+.icon-rotate{
+	transform:rotate(60deg);
+}
+#sec1-padding{
+	padding-top:80px;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
